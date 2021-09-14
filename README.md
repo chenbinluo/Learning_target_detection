@@ -1,3 +1,6 @@
+# 只是学习目标检测过程中的一些progress report及笔记
+
+
 # YOLO v5 with FLIR dataset
 step 1. 搭建相关环境，需要安装python, torch, torchversion,注意yolov5各个version对torch版本的要求；\
 step 2. 下载数据，将15个压缩文件合并为一个，方法为在压缩文件下载的目录下打开CMD并输入“copy \B ” \
