@@ -1,4 +1,4 @@
-# Learning_target_detection
+# YOLO v5 with FLIR dataset
 step 1. 搭建相关环境，需要安装python, torch, torchversion,注意yolov5各个version对torch版本的要求；\
 step 2. 下载数据，将15个压缩文件合并为一个，方法为在压缩文件下载的目录下打开CMD并输入“copy \B ” \
 step 3. 然后使用[转json.ipynp](https://github.com/chenbinluo/Learning_target_detection/blob/main/json_to_yolo.ipynb)将train\val\vedio中的json文件转换成yolo要求的txt格式，并放入label问价夹中\
@@ -10,7 +10,7 @@ step 8. 在data文件夹下面新建一个[FLIR.yaml文件](https://github.com/c
 step 9. 从零开始训练：python train.py --img 640 --epochs 300 --data data/FLIR.yaml --cfg models/yolov5s.yaml --weight " "\
 step 10. 从预训练模型进行微调：python train.py --img 640 --epochs 300 --data data/FLIR.yaml --cfg models/yolov5s.yaml --weight weights/yolov5s.pt\
 
-# 使用自己构造的数据集
+# YOLO v5 with 我自己下载的demo数据
 1. 去google下载相应的图片 or 自己写一个简单的图片[爬虫](https://github.com/chenbinluo/Learning_target_detection/blob/main/%E7%88%AC%E5%8F%96%E5%9B%BE%E7%89%87.ipynb)\
 2. 在文件夹yolov5-master下打开cmd, 并activate环境,然后pip install -r requirements.txt\
 3. 然后pip install labelimg\
