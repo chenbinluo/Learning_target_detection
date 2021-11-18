@@ -6,4 +6,4 @@ test:  # test images (optional)
 
 # Classes
 nc: 4  # number of classes
-names: ['Dogs', 'People', 'Bicycles', 'Cars']  # class names
+names: ['Dogs', 'People', 'Cars','Bicycles']  # class names
