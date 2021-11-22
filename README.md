@@ -1,4 +1,4 @@
-# 只是学习目标检测过程中的一些progress report及笔记
+# 学习目标检测过程中的一些progress report及笔记
 
 
 # YOLO v5 with FLIR dataset
